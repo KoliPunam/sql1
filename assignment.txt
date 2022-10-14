@@ -1,0 +1,21 @@
+select Country from customer where Country like 'a%'
+union 
+select Country from customer where Country like 'i%';
+
+select * from customer where firstname like'__i%';
+
+
+
+select * from customer where country ='Germany';
+
+select FirstName,LastName from customer;
+
+alter table customer add faxnum varchar(8);
+
+select * from customer where FirstName like'_u%';
+
+Select * from customer;
+
+select * from customer where FaxNum IS NOT NULL;
+
+select * from Customer where FirstName like '_u%'; 
